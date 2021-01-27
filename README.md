@@ -2,12 +2,15 @@
 
 Welcome to the IS-ENES3 use cases repository for climate data analysis!
 
-Here you can find Jupyter notebooks with coding examples showing how to use Big Data and High-Performance Computing software for applications in geoscience: 
+Here you can find Jupyter notebooks with coding examples showing how to use Big Data and High-Performance Computing software in the following applications: 
 
-- Multimodel Comparison of CMIP6 models: we show how to load, select, concatenate, calculate means, and plot using Xarray, cdo, and matplotlib.
-- Summer Days climate index with CMIP6 models: we show how to find data in the huge data pool using Intake, filter a region and a period, load data, and calculate thresholds using Xarray, and plot with cartopy.
-- Tropical Nights climate index with CMIP6 models: we show how to find data in the huge data pool using Intake, load data and calculate thresholds using Xarray, and plot with cartopy.
-- Frost Days climate index with CMIP6 models: we show how to find data in the huge data pool using Intake, load data and calculate thresholds using Xarray, and plot with cartopy.
+**Multimodel Comparison of CMIP6 models:** the notebooks shows how to load, select, concatenate, calculate means, and plot using Xarray, cdo, and matplotlib.
+
+**Summer Days climate index with CMIP6 models:** the notebook shows how to find data in the huge data pool using Intake, filter a region and a period, load data, and calculate thresholds using Xarray, and plot with cartopy.
+
+**Tropical Nights climate index with CMIP6 models:** the notebook shows how to find data in the huge data pool using Intake, load data and calculate thresholds using Xarray, and plot with cartopy.
+
+**Frost Days climate index with CMIP6 models:** the notebook shows how to find data in the huge data pool using Intake, load data and calculate thresholds using Xarray, and plot with cartopy.
 
 The Jupyter notebooks are meant to run in the Jupyterhub server of the German Climate Computing Center [DKRZ](https://www.dkrz.de/) which is an [ESGF](https://esgf.llnl.gov/) repository that hosts 4 petabytes of [CMIP6](https://pcmdi.llnl.gov/CMIP6/) model data (more info on the data pool [here](https://www.dkrz.de/up/services/data-management/cmip-data-pool)). 
 
@@ -23,3 +26,4 @@ Then, the repo or just the notebook will be visible from the Jupyterhub. When op
 
 Besides the information on the Jupyterhub, in these DKRZ [docs](https://www.dkrz.de/up/systems/mistral/programming/jupyter-notebook) you can find how to run Jupyter notebooks directly in the DKRZ server, that is, out of the Jupyterhub (it entails that you install the geoscience packages you need). 
 
+**Reach us at data-pool@dkrz.de**
