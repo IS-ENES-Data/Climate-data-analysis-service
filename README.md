@@ -4,13 +4,13 @@ Welcome to the IS-ENES3 use cases repository for climate data analysis!
 
 Here you can find Jupyter notebooks with coding examples showing how to use Big Data and High-Performance Computing software in the following applications: 
 
-**Multimodel Comparison of CMIP6 models:** the notebooks shows how to load, select, concatenate, calculate means, and plot using Xarray, cdo, and matplotlib.
+* **Multimodel Comparison of CMIP6 models:** this notebook shows how to load, select, concatenate, calculate means, and plot using Xarray, cdo, and matplotlib.
 
-**Summer Days climate index with CMIP6 models:** the notebook shows how to find data in the huge data pool using Intake, filter a region and a period, load data, and calculate thresholds using Xarray, and plot with cartopy.
+* **Summer Days climate index with CMIP6 models:** this notebook shows how to find data in the huge data pool using Intake, filter a region and a period, load data, and calculate thresholds using Xarray, and plot with cartopy.
 
-**Tropical Nights climate index with CMIP6 models:** the notebook shows how to find data in the huge data pool using Intake, load data and calculate thresholds using Xarray, and plot with cartopy.
+* **Tropical Nights climate index with CMIP6 models:** this notebook shows how to find data in the huge data pool using Intake, load data and calculate thresholds using Xarray, and plot with cartopy.
 
-**Frost Days climate index with CMIP6 models:** the notebook shows how to find data in the huge data pool using Intake, load data and calculate thresholds using Xarray, and plot with cartopy.
+* **Frost Days climate index with CMIP6 models:** this notebook shows how to find data in the huge data pool using Intake, load data and calculate thresholds using Xarray, and plot with cartopy.
 
 The Jupyter notebooks are meant to run in the Jupyterhub server of the German Climate Computing Center [DKRZ](https://www.dkrz.de/) which is an [ESGF](https://esgf.llnl.gov/) repository that hosts 4 petabytes of [CMIP6](https://pcmdi.llnl.gov/CMIP6/) model data (more info on the data pool [here](https://www.dkrz.de/up/services/data-management/cmip-data-pool)). 
 
