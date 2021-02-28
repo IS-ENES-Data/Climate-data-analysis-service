@@ -1,0 +1,26 @@
+# conda env create -f environment.yml
+name: nbdemo
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.7
+  - pip
+  - ipykernel
+  - ipywidgets
+  - intake
+  - intake-esm
+  - xarray
+  - netcdf4
+  - numpy
+  - pandas
+  - matplotlib
+  - cartopy
+  - scipy
+  - cdo
+  - python-cdo
+  - geopy
+  - folium
+  - hvplot
+  # testing
+  - pytest
+  - nbval
