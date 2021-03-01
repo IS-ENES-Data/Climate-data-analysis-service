@@ -13,7 +13,7 @@ We have notebooks for several use cases:
 
 1. **Multimodel Comparison of CMIP6 models**
   * use Python to select data in data-pool,
-  * use [cdo](https://pypi.org/project/cdo/) for computation.
+  * use [cdo](https://pypi.org/project/cdo/) and [Xarray](http://xarray.pydata.org/en/stable/) for computation.
 2. **Frost Days climate index with CMIP6 models**
   * use [Intake](https://intake.readthedocs.io/en/latest/) to search data in data-pool,
   * use [Xarray](http://xarray.pydata.org/en/stable/) for computation.
