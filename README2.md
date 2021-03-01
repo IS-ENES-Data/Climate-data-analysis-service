@@ -2,7 +2,7 @@
 
 Welcome to the IS-ENES3 tutorials and use cases repository for the ENES Climate Analytics Services ([ECAS](https://portal.enes.org/data/data-metadata-service/enes-climate-analytics-service-ecas#DKRZ)) at DKRZ!
 
-Here you can find [Jupyter](https://jupyter.org/) notebooks with coding examples showing how to use Big Data and High-Performance Computing software.
+Here you can find [Jupyter](https://jupyter.org/) notebooks with coding examples showing how to use Big Data and High-Performance Computing software. Find more information on how to apply for the service and get a DKRZ account at the [ECAS website](https://portal.enes.org/data/data-metadata-service/enes-climate-analytics-service-ecas#DKRZ).
 
 
 ## Notebooks
@@ -28,7 +28,6 @@ The Jupyter notebooks are meant to run in the [Jupyterhub](https://jupyterhub.dk
 
 Do not try to run these notebooks in your premise, which is also known as [client-side](https://en.wikipedia.org/wiki/Client-side) computing. It will fail because you will not have direct access to the data pool. Direct access to the data pool is one of the main benefits of the [server-side](https://en.wikipedia.org/wiki/Server-side) data-near computing demonstrated in these tutorials and use cases :relaxed:.
 
-Find more information on how to apply and get a DKRZ account at the [ECAS website](https://portal.enes.org/data/data-metadata-service/enes-climate-analytics-service-ecas#DKRZ)).
 
 ## Quick start
 
