@@ -28,14 +28,14 @@ The Jupyter notebooks are meant to run in the [Jupyterhub](https://jupyterhub.dk
 
 Do not try to run these notebooks in your premise, which is also known as [client-side](https://en.wikipedia.org/wiki/Client-side) computing. It will fail because you will not have direct access to the data pool. Direct access to the data pool is one of the main benefits of the [server-side](https://en.wikipedia.org/wiki/Server-side) data-near computing demonstrated in these tutorials and use cases :relaxed:.
 
-Visit the documentation [here](http://mipdata.gitlab-pages.dkrz.de/tutorials-and-use-cases/). We included there animations on how to log in and run the notebooks to get you started. Or you can follow the quick start below.
+Find more information on how to apply and get a DKRZ account at the [ECAS website](https://portal.enes.org/data/data-metadata-service/enes-climate-analytics-service-ecas#DKRZ)).
 
 ## Quick start
 
 You will *only* need a browser to install and run the above notebooks.
 
 1. Open the [DKRZ Jupyterhub](https://jupyterhub.dkrz.de) in your browser.
-2. Login with your DKRZ account (if you do not have one account yet, follow steps 1 and 2 in the service [website](https://portal.enes.org/data/data-metadata-service/enes-climate-analytics-service-ecas#DKRZ)). 
+2. Login with your DKRZ account (if you do not have one account yet, follow steps 1 and 2 in the service [ECAS website](https://portal.enes.org/data/data-metadata-service/enes-climate-analytics-service-ecas#DKRZ)). 
 3. Pick a profile (``Preset -> Start from Preset Profile``). You need a **prepost** node. Choose profile ``20 GB memory, prepost``.
 4. Launch Jupyter.
 5. Open a terminal in Jupyter (``New -> Terminal``, on the right side)
