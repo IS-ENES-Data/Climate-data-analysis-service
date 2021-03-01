@@ -1,6 +1,6 @@
 # Using Notebooks for Climate Data Analysis
 
-Welcome to the IS-ENES3 use cases repository for climate data analysis!
+Welcome to the IS-ENES3 tutorials and use cases repository for the ENES Climate Analytics Services ([ECAS](https://portal.enes.org/data/data-metadata-service/enes-climate-analytics-service-ecas#DKRZ)) at DKRZ!
 
 Here you can find [Jupyter](https://jupyter.org/) notebooks with coding examples showing how to use Big Data and High-Performance Computing software.
 
@@ -35,7 +35,7 @@ Visit the documentation [here](http://mipdata.gitlab-pages.dkrz.de/tutorials-and
 You will *only* need a browser to install and run the above notebooks.
 
 1. Open the [DKRZ Jupyterhub](https://jupyterhub.dkrz.de) in your browser.
-2. Login with your DKRZ account.
+2. Login with your DKRZ account (if you do not have one account yet, follow steps 1 and 2 in the service [website](https://portal.enes.org/data/data-metadata-service/enes-climate-analytics-service-ecas#DKRZ)). 
 3. Pick a profile (``Preset -> Start from Preset Profile``). You need a **prepost** node. Choose profile ``20 GB memory, prepost``.
 4. Launch Jupyter.
 5. Open a terminal in Jupyter (``New -> Terminal``, on the right side)
