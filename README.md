@@ -2,14 +2,14 @@
 
 Welcome to the IS-ENES3 tutorials and use cases repository for the ENES Climate Analytics Services ([ECAS](https://portal.enes.org/data/data-metadata-service/enes-climate-analytics-service-ecas#DKRZ)) at DKRZ!
 
-Here you can find [Jupyter](https://jupyter.org/) notebooks with coding examples showing how to use Big Data and High-Performance Computing software. Find more information on how to apply for the service and get a DKRZ account at the [ECAS website](https://portal.enes.org/data/data-metadata-service/enes-climate-analytics-service-ecas#DKRZ).
+In the "notebooks" folder here you can find [Jupyter](https://jupyter.org/) notebooks with coding examples showing how to use Big Data and High-Performance Computing software. Find more information on how to apply for the service and get a DKRZ account at the [ECAS website](https://portal.enes.org/data/data-metadata-service/enes-climate-analytics-service-ecas#DKRZ).
 
 
 ## Notebooks
 
 [![NBViewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/IS-ENES-Data/Climate-data-analysis-service/tree/main/)
 
-We prepared a tutorial on how to use [Intake](https://intake.readthedocs.io/en/latest/) in the DKRZ data pool and notebooks for several use cases:
+We prepared a tutorial on how to use [Intake](https://intake.readthedocs.io/en/latest/) in the DKRZ data pool and several notebooks with use cases. They are independent, just pick up those showing the content you are interested on:
 
 1. **Multimodel Comparison of CMIP6 models**
   * use Python to select data in data-pool,
