@@ -9,7 +9,7 @@ Here you can find [Jupyter](https://jupyter.org/) notebooks with coding examples
 
 [![NBViewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/IS-ENES-Data/Climate-data-analysis-service/tree/main/)
 
-We have notebooks for several use cases:
+We prepared a tutorial on how to use [Intake](https://intake.readthedocs.io/en/latest/) in the DKRZ data pool and notebooks for several use cases:
 
 1. **Multimodel Comparison of CMIP6 models**
   * use Python to select data in data-pool,
