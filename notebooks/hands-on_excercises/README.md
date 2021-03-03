@@ -2,7 +2,7 @@ In this hands-on we will find, analyze and visualize data from our DKRZ data poo
 
 # Excecise 1
 
-`1_hands-on_find_data_intake.ipynb`
+### `1_hands-on_find_data_intake.ipynb`
 
 - Search for an appropriate list of datasets. The datasets should contain the variables `tasmin` on a daily basis.
 - Save your selection as .csv file, so it can be used by another notebook.
