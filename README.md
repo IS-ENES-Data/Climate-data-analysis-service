@@ -13,7 +13,7 @@ We prepared a tutorial on how to use [Intake](https://intake.readthedocs.io/en/l
 
 1. **Multimodel Comparison of CMIP6 models**
   * use Python to select data in data-pool,
-  * use [cdo](https://pypi.org/project/cdo/) and [Xarray](http://xarray.pydata.org/en/stable/) for computation.
+  * use [python-cdo](https://pypi.org/project/cdo/) and [Xarray](http://xarray.pydata.org/en/stable/) for computation.
 2. **Frost Days climate index with CMIP6 models**
   * use [Intake](https://intake.readthedocs.io/en/latest/) to search data in data-pool,
   * use [Xarray](http://xarray.pydata.org/en/stable/) for computation.
@@ -35,8 +35,10 @@ You will *only* need a browser to install and run the above notebooks.
 
 1. Open the [DKRZ Jupyterhub](https://jupyterhub.dkrz.de) in your browser.
 2. Login with your DKRZ account (if you do not have one account yet, follow steps 1 and 2 in the service [ECAS website](https://portal.enes.org/data/data-metadata-service/enes-climate-analytics-service-ecas#DKRZ)). 
-3. Pick a profile (``Preset -> Start from Preset Profile``). You need a **prepost** node. Choose profile ``20 GB memory, prepost``.
-4. Launch Jupyter.
+3. Pick a profile (``Preset -> Start from Preset Profile``). You need a **prepost** node. Choose profile ``5GB memory, prepost``. 
+
+    > NOTE: Everytime you run the notebook you will use some of that RAM, we recomend to click on ``Kernel -> Shutdown kernel`` often so the memory is released. If you   want to run several notebooks at the same time or one notebook several times and you cannot shoutdown the kernel each time, please, choose a job profile with a larger memory.
+4. Press "start" and your Jupyter server will start (which it is also known as spawning).
 5. Open a terminal in Jupyter (``New -> Terminal``, on the right side)
 6. A terminal window opens on the node where your Jupyter is running.
 7. Clone the notebooks from GitHub:
