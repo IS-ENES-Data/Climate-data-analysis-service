@@ -80,6 +80,17 @@ $ bash make_kernel.sh
 4. Now you can run also the *summer days* notebook.
 
 
+### Further Infos
+
+* Find more in the DKRZ Jupyterhub [documentation](https://jupyterhub.gitlab-pages.dkrz.de/jupyterhub-docs/index.html).
+* *prepost* nodes at DKRZ have internet access [info](https://www.dkrz.de/up/systems/mistral/running-jobs/partitions-and-limits).
+* ``Python 3 unstable`` kernel: This kernel already contains all the common geoscience packages that we need for our notebooks.
+* See in this [video](https://youtu.be/f0wZX9i0uWQ) the main features of the DKRZ Jupterhub and how to use it.
+* Advanced users developing their own notebooks can find there how to create their own environments that are visible as kernels by the Jupyterhub.
+
+Besides the information on the Jupyterhub, in these DKRZ [docs](https://www.dkrz.de/up/systems/mistral/programming/jupyter-notebook) you can find how to run Jupyter notebooks directly in the DKRZ server, that is, out of the Jupyterhub (it entails that you install the geoscience packages you need).
+
+
 ## Exercises
 In this hands-on we will find, analyze and visualize data from our DKRZ data pool. The goal is to create two  maps, which visuaize the number of tropical nights for 2014 (the most recent year of the historical dataset) and for a chosen year in the past. In order to achive this, the hands-on will be split into two excercises:
 
@@ -94,16 +105,6 @@ In this hands-on we will find, analyze and visualize data from our DKRZ data poo
 - Read the saved selection and open the two files, which are needed.
 - Calculate the number of tropical nights for both years.
 - Visualize the results on a map. You can use your preferred visualization package or stick to the example in the demo `use-case_frost_days_intake_xarray_cmip6.ipynb`.
-
-### Further Infos
-
-* Find more in the DKRZ Jupyterhub [documentation](https://jupyterhub.gitlab-pages.dkrz.de/jupyterhub-docs/index.html).
-* *prepost* nodes at DKRZ have internet access [info](https://www.dkrz.de/up/systems/mistral/running-jobs/partitions-and-limits).
-* ``Python 3 unstable`` kernel: This kernel already contains all the common geoscience packages that we need for our notebooks.
-* See in this [video](https://youtu.be/f0wZX9i0uWQ) the main features of the DKRZ Jupterhub and how to use it.
-* Advanced users developing their own notebooks can find there how to create their own environments that are visible as kernels by the Jupyterhub.
-
-Besides the information on the Jupyterhub, in these DKRZ [docs](https://www.dkrz.de/up/systems/mistral/programming/jupyter-notebook) you can find how to run Jupyter notebooks directly in the DKRZ server, that is, out of the Jupyterhub (it entails that you install the geoscience packages you need).
 
 ## Contact us
 
