@@ -92,7 +92,7 @@ Besides the information on the Jupyterhub, in these DKRZ [docs](https://www.dkrz
 
 
 ## Exercises
-In this hands-on we will find, analyze and visualize data from our DKRZ data pool. The goal is to create two  maps, which visuaize the number of tropical nights for 2014 (the most recent year of the historical dataset) and for a chosen year in the past. In order to achive this, the hands-on will be split into two excercises:
+In this hands-on we will find, analyze and visualize data from our DKRZ data pool. The goal is to create two  maps, which show the number of tropical nights for 2014 (the most recent year of the historical dataset) and for a chosen year in the past. In order to achive this, the hands-on will be split into two exercises:
 
 ### `1_hands-on_find_data_intake.ipynb`
 
