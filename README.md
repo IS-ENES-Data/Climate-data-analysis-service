@@ -67,6 +67,19 @@ $ git clone https://github.com/IS-ENES-Data/Climate-data-analysis-service.git
 Then, the notebooks will be visible from the Jupyterhub.
 
 
+## Advanced
+
+The notebook to calculate *summer days* needs its own Jupyter kernel:
+
+1. Open the terminal and run a script to make a new kernel:
+```console
+$ bash make_kernel.sh
+```
+2. ... it takes a couple of minutes ...
+3. When done then go to you Jupyter and choose the new Kernel we just created ``Notebook Demo``.
+4. Now you can run also the *summer days* notebook.
+
+
 ## Exercises
 In this hands-on we will find, analyze and visualize data from our DKRZ data pool. The goal is to create two  maps, which visuaize the number of tropical nights for 2014 (the most recent year of the historical dataset) and for a chosen year in the past. In order to achive this, the hands-on will be split into two excercises:
 
@@ -91,18 +104,6 @@ In this hands-on we will find, analyze and visualize data from our DKRZ data poo
 * Advanced users developing their own notebooks can find there how to create their own environments that are visible as kernels by the Jupyterhub.
 
 Besides the information on the Jupyterhub, in these DKRZ [docs](https://www.dkrz.de/up/systems/mistral/programming/jupyter-notebook) you can find how to run Jupyter notebooks directly in the DKRZ server, that is, out of the Jupyterhub (it entails that you install the geoscience packages you need).
-
-## Advanced
-
-The notebook to calculate *summer days* needs its own Jupyter kernel:
-
-1. Open the terminal and run a script to make a new kernel:
-```console
-$ bash make_kernel.sh
-```
-2. ... it takes a couple of minutes ...
-3. When done then go to you Jupyter and choose the new Kernel we just created ``Notebook Demo``.
-4. Now you can run also the *summer days* notebook.
 
 ## Contact us
 
