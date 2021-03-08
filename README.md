@@ -17,12 +17,12 @@ We prepared a tutorial on how to use [Intake](https://intake.readthedocs.io/en/l
 2. **Frost Days climate index with CMIP6 models**
   * use [Intake](https://intake.readthedocs.io/en/latest/) to search data in data-pool,
   * use [Xarray](http://xarray.pydata.org/en/stable/) for computation.
-3. **Tropical Nights climate index with CMIP6 models**
-  * use Intake and Xarray.
-4. **Summer Days climate index with CMIP6 models**
+3. **Summer Days climate index with CMIP6 models**
   * This is an **advanced** notebook. It requires additional installations steps ("Your own Jupyter kernel").
   * use [Folium](https://pypi.org/project/folium/) for maps,
   * use [hvPlot](https://pypi.org/project/hvplot/) for plots.
+4. **Simple visualization examples for CMIP6**
+  * use [Cartopy](https://scitools.org.uk/cartopy/docs/latest/) and [Matplotlib](https://matplotlib.org/) for visualization.
 
 The Jupyter notebooks are meant to run in the [Jupyterhub](https://jupyterhub.dkrz.de/) server of the German Climate Computing Center [DKRZ](https://www.dkrz.de/) which is an [ESGF](https://esgf.llnl.gov/) repository that hosts 4 petabytes of [CMIP6](https://pcmdi.llnl.gov/CMIP6/) model data (more info on the data pool [here](https://www.dkrz.de/up/services/data-management/cmip-data-pool)).
 
