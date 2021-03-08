@@ -17,9 +17,7 @@ We prepared a tutorial on how to use [Intake](https://intake.readthedocs.io/en/l
 2. **Frost Days climate index with CMIP6 models**
   * use [Intake](https://intake.readthedocs.io/en/latest/) to search data in data-pool,
   * use [Xarray](http://xarray.pydata.org/en/stable/) for computation.
-3. **Tropical Nights climate index with CMIP6 models**
-  * use Intake and Xarray.
-4. **Summer Days climate index with CMIP6 models**
+3. **Summer Days climate index with CMIP6 models**
   * This is an **advanced** notebook. It requires additional installations steps ("Your own Jupyter kernel").
   * use [Folium](https://pypi.org/project/folium/) for maps,
   * use [hvPlot](https://pypi.org/project/hvplot/) for plots.
