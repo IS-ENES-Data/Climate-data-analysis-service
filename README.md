@@ -1,8 +1,8 @@
 # Using Notebooks for Climate Data Analysis
 
-Welcome to the IS-ENES3 tutorials and use cases repository for the ENES Climate Analytics Services ([ECAS](https://portal.enes.org/data/data-metadata-service/enes-climate-analytics-service-ecas#DKRZ)) at DKRZ!
+Welcome to the IS-ENES3 tutorials and use cases repository for the ENES Climate Analytics Services ([ECAS](https://portal.enes.org/data/data-metadata-service/climate-analytics-service-ecas#DKRZ)) at DKRZ!
 
-In the "notebooks" folder here you can find [Jupyter](https://jupyter.org/) notebooks with coding examples showing how to use Big Data and High-Performance Computing software. Find more information on how to apply for the service and get a DKRZ account at the [ECAS website](https://portal.enes.org/data/data-metadata-service/enes-climate-analytics-service-ecas#DKRZ).
+In the "notebooks" folder here you can find [Jupyter](https://jupyter.org/) notebooks with coding examples showing how to use Big Data and High-Performance Computing software. Find more information on how to apply for the service and get a DKRZ account at the [ECAS website](https://portal.enes.org/data/data-metadata-service/climate-analytics-service-ecas#DKRZ).
 
 
 ## Notebooks
@@ -34,7 +34,7 @@ Do not try to run these notebooks in your premise, which is also known as [clien
 You will *only* need a browser to install and run the above notebooks.
 
 1. Open the [DKRZ Jupyterhub](https://jupyterhub.dkrz.de) in your browser.
-2. Login with your DKRZ account (if you do not have one account yet, follow steps 1 and 2 in the service [ECAS website](https://portal.enes.org/data/data-metadata-service/enes-climate-analytics-service-ecas#DKRZ)). 
+2. Login with your DKRZ account (if you do not have one account yet, follow steps 1 and 2 in the service [ECAS website](https://portal.enes.org/data/data-metadata-service/climate-analytics-service-ecas#DKRZ)). 
 3. Pick a profile (``Preset -> Start from Preset Profile``). You need a **prepost** node. Choose profile ``5GB memory, prepost``. 
 
     > NOTE: Everytime you run the notebook you will use some of that RAM, we recomend to click on ``Kernel -> Shutdown kernel`` often so the memory is released. If you   want to run several notebooks at the same time or one notebook several times and you cannot shoutdown the kernel each time, please, choose a job profile with a larger memory.
