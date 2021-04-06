@@ -1,6 +1,8 @@
 # Using Notebooks for Climate Data Analysis
 
-Welcome to the IS-ENES3 tutorials and use cases repository for the ENES Climate Analytics Services ([ECAS](https://portal.enes.org/data/data-metadata-service/climate-analytics-service#DKRZ)) at DKRZ!
+Welcome to the IS-ENES3 tutorials and use cases repository for the ENES Climate Analytics Services ([ECAS](https://portal.enes.org/data/data-metadata-service/climate-analytics-service#DKRZ)): 
+- for the ECAS provided by the German Climate Computing Center [DKRZ](https://www.dkrz.de/): find in this repo the training material; we continuously create more the material, check the institutional [repo](https://gitlab.dkrz.de/mipdata/tutorials-and-use-cases),
+- for the ECAS provided by the Euro-Mediterranean Centre for Climate Change [CMCC](https://ecaslab.cmcc.it/web/home.html) find the training material in this other [repo](https://github.com/ECAS-Lab/ecas-training).
 
 In the "notebooks" folder here you can find [Jupyter](https://jupyter.org/) notebooks with coding examples showing how to use Big Data and High-Performance Computing software. Find more information on how to apply for the service and get a DKRZ account at the [ECAS website](https://portal.enes.org/data/data-metadata-service/climate-analytics-service#DKRZ).
 
