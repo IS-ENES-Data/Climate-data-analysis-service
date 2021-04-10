@@ -1,11 +1,11 @@
 # Using Notebooks for Climate Data Analysis
 
-Welcome to the IS-ENES3 tutorials and use cases repository for the ENES Climate Analytics Services [ECAS](https://portal.enes.org/data/data-metadata-service/climate-analytics-service): 
+Welcome to the IS-ENES3 tutorials and use cases repository for the ENES Climate Analytics Services [ECAS](https://portal.enes.org/data/data-metadata-service/climate-analytics-service):
 - for the ECAS provided by the German Climate Computing Center [DKRZ](https://www.dkrz.de/) (xarray and dask back-end): find in this repo the training material; we continuously create more material, check the institutional [repo](https://gitlab.dkrz.de/mipdata/tutorials-and-use-cases),
 - for the ECAS provided by the Euro-Mediterranean Centre for Climate Change [CMCC](https://ecaslab.cmcc.it/web/home.html) (Ophidia back-end): find the training material in this other [repo](https://github.com/ECAS-Lab/ecas-training).
 Find more information on how to apply for the service and get an ECAS account at the [ECAS website](https://portal.enes.org/data/data-metadata-service/climate-analytics-service).
 
-In the "notebooks" folder here you can find [Jupyter](https://jupyter.org/) notebooks with coding examples showing how to use Big Data and High-Performance Computing software at DKRZ. 
+In the "notebooks" folder here you can find [Jupyter](https://jupyter.org/) notebooks with coding examples showing how to use Big Data and High-Performance Computing software at DKRZ.
 
 
 ## Notebooks
@@ -27,7 +27,9 @@ We prepared a tutorial on how to use [Intake](https://intake.readthedocs.io/en/l
 4. **Simple visualization examples for CMIP6**
   * use [Cartopy](https://scitools.org.uk/cartopy/docs/latest/) and [Matplotlib](https://matplotlib.org/) for visualization.
 5. **Using ESMValtool directly accessing the DKRZ CMIP and ERA data pool**
-  * to reproduce or re-use existing climate analytics, more info [here](https://www.esmvaltool.org/). This is an **advanced** notebook. It requires additional installations steps (that is, your own environment to be seen as a kernel at the Jupyterhub, see section "Advanced" below).
+  * to reproduce or re-use existing climate analytics. For more information,
+    kernel installation instructions, and example notebooks please see
+    https://github.com/ESMValGroup/ESMValTool-JupyterLab
 
 
 The Jupyter notebooks are meant to run in the [Jupyterhub](https://jupyterhub.dkrz.de/) server of the German Climate Computing Center [DKRZ](https://www.dkrz.de/) which is an [ESGF](https://esgf.llnl.gov/) repository that hosts 4 petabytes of [CMIP6](https://pcmdi.llnl.gov/CMIP6/) model data (more info on the data pool [here](https://www.dkrz.de/up/services/data-management/cmip-data-pool)).
@@ -40,8 +42,8 @@ Do not try to run these notebooks in your premise, which is also known as [clien
 You will *only* need a browser to install and run the above notebooks.
 
 1. Open the [DKRZ Jupyterhub](https://jupyterhub.dkrz.de) in your browser.
-2. Login with your DKRZ account (if you do not have one account yet, follow steps 1 and 2 in the service [ECAS website](https://portal.enes.org/data/data-metadata-service/climate-analytics-service#DKRZ)). 
-3. Pick a profile (``Preset -> Start from Preset Profile``). You need a **prepost** node. Choose profile ``5GB memory, prepost``. 
+2. Login with your DKRZ account (if you do not have one account yet, follow steps 1 and 2 in the service [ECAS website](https://portal.enes.org/data/data-metadata-service/climate-analytics-service#DKRZ)).
+3. Pick a profile (``Preset -> Start from Preset Profile``). You need a **prepost** node. Choose profile ``5GB memory, prepost``.
 
     > NOTE: Everytime you run the notebook you will use some of that RAM, we recomend to click on ``Kernel -> Shutdown kernel`` often so the memory is released. If you   want to run several notebooks at the same time or one notebook several times and you cannot shoutdown the kernel each time, please, choose a job profile with a larger memory.
 4. Press "start" and your Jupyter server will start (which it is also known as spawning).
